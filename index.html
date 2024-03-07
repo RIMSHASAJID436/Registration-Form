@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="http://www.example.com/subscribe.php" method="get">
+        <table cellspacing="3" BGCOLOR="cornflowerblue">
+            <tr>
+                <td width="280"><label for="fname">
+                    <font size="5" font color="white"> FIRST NAME </font>
+               </label> </td>
+                <TD WIDTH="100">
+                    <FONT SIZE="5"><input type="text" size="30" maxlength="30" id="fname">
+                <td width="750">
+                    <font color="white ">(Max 30 character a-z and A-Z) </font>
+                </td>
+                </FONT>
+                </TD>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width=" 280"><label for="lname">
+                    <font size="5" font color="white ">LAST NAME </font>
+                </label>   </td>
+                <td width="100">
+                    <font size="5"><input type="text" size="30" maxlength="30" id="lname">
+                <td width="750">
+                    <font color="white">(Max 30 character a-z and A-Z)</font>
+                </td>
+                </font>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td WIDTH="280"><label for="dob">
+                    <font size="5" color="white">DATE OF BIRTH</font>
+                </label>  </td>
+                <TD width="1002">
+                    <font size="5"><input type="date" name="date" size="30" maxlength="10" id="dob"></font>
+                </TD>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280"><label for="email">
+                    <font size="5" color="white">EMAIL ID</font>
+                </label>  </td>
+                <td width="1002">
+                    <font size="5" color="white"><input type="text" size="30" maxlength="30" id="email"></font>
+                </td>
+
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280">
+                    <label for="mob">  <font size="5" font color="white">MOBILE NUMBER</font>
+                    </label>  </td>
+                <td width="100">
+                    <font size="5" color="white"><input type="number" size="10" id="mob" maxlength="10">
+                <td width="820">
+                    <font color="white">(10 digit number)</font>
+                </td>
+                </font>
+                </td>
+          </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280">
+                    <font size="5" color="white">GENDER</font>
+                </td>
+                <td width="1002">
+                    <font sizze="5" color="white"><label>Male<input type="radio" name="gender" value="male"> </label>
+
+                        <label>Female<input type="radio" name="gender" value="female"> </label>
+                    </font>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280"><label for="add">
+                    <font size="5" color="white">ADDRESS</font>
+                </label>   </td>
+                <td width="1002"><textarea cols="30" rows="5" id="add"></textarea></td>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280"><label for="city">
+                    <font size="5" color="white">CITY</font>
+                </label></td>
+                <td width="250">
+                    <font size="5"><select name="country" width="50" id="city">
+                            <option>SELECT CITY</option>
+                            <option value="kch">KARACHI</option>
+                            <option value="HYD">HYDERABAD</option>
+                            <option value="RWL">RAWALPINDI</option>
+                            <option value="ISL">ISLAMABAD</option>
+                            <option value="SLKT">SIALKOT</option>
+                            <option value="LHR ">LAHORE</option>
+                        </select></font>
+                </td>
+
+                <td width="720">
+                    <font color="white">(max 30 character a-z A-Z)</font>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280"><label for="pin">
+                    <font size="5" color="white">PIN CODE </font>
+                </label> </td>
+                <td width="100">
+                    <font color="white"><input type="number" size="10" id="pin" maxlength="10">
+                <td width="820">
+                    <font color="white">(6 digit number) </font>
+                </td>
+                </font>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280"><label for="state">
+                    <font size="5" color="white">STATE</font>
+                </label>  </td>
+                <td width="100"><input type="text" id="state"></td>
+                <td width="820">
+                    <font color="white">(max 30 character a-z A-Z)</font>
+                </td>
+            </tr>
+        </table>
+        <table CELLSPACING="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280"><label for="con">
+                    <font size="5" color="white">COUNTRY </font>
+                </label> </td>
+                <td width="1002"><select name="country" id="con">
+                        <font color="white">
+                            <OPTIon>SELECT COUNTRY </OPTIon>
+                            <option value="pak">PAKISTAN</option>
+                            <option value="IND">INDIA</option>
+                            <option value="AUS">AUSTRALIA</option>
+                            <option value="AFG">AFGHANSTAN</option>
+                            <option value="CND">CANADA</option>
+                            <option value="SA">SOUTH AFRICA</option>
+                            <option value="NPL ">NEPAL</option>
+                        </font>
+                    </select></td>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280"><label for="hobb">
+                    <font size="5" color="white">HOBBIES</font>
+                </label> </td>
+                <td width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <label for="draw">  <font size="5" color="white">Drawing<input type="checkbox" id="draw"  value="Drawing"></font>
+                 </label>   </td>
+                <td width="150">
+                    <label for="sing">
+                    <font size="5" color="white">Singing<input type="checkbox" id="sing" name="hobbies" value="singing"></font>
+                </label>  </td>
+                <td width="150">
+                <label for="dan"><font size="5" color="white">Dancing<input type="checkbox" id="dan" name="hobbies" value="dancing"></font>
+                </label>  </td>
+                <td width="700"><label for="skt">
+                    <font size="5" color="white">Sketching<input type="checkbox" id="skt" name="hobbies" value="sketching">
+                    </font>
+                </label> </td>
+                <table cellspacing="3" bgcolor="cornflowerblue">
+                    <tr>
+                        <td width="90"></td>
+                        <td width="150"></td>
+                        <td width="150">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                           <label for="other"> <font size="5" color="white">Others<input type="checkbox" id="other" name="hobbies" value="others">
+                            </font>
+                        </label>  </td>
+                        <td width="952"><textarea placeholder="text" cols="30" rows="2"></textarea></td>
+                    </tr>
+                </table>
+            </tr>
+
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280">
+                    <font size="5" color=" white">QUALIFICATION</font>
+                </td>
+                <td width="200">
+                    <font size="4" color="white">SI.No.Examination</font>
+                </td>
+                <td width="200">
+                    <font size="4" color="white">Board</font>
+                </td>
+                <td width="200">
+                    <font size="4" color="white">Percentage</font>
+                </td>
+                <td width="400">
+                    <font size="4" color="white">Year of Passing</font>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280"></td>
+                <td width="180">
+                    <font size="5" color="white"> 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class X</font>
+                </td>
+                <td width="80"><input type="text"></td>
+                <td width="80"><input type="text"></td>
+                <td width="450"><input type="text"></td>
+            </tr>
+        </table>
+        <table cellspacing="3 " bgcolor="cornflowerblue">
+            <tr>
+                <td width="280"></td>
+                <td width="180">
+                    <font size="5" color="white"> 2 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Class XII</font>
+                </td>
+                <td width="80"><input type="text"></td>
+                <td width="80"><input type="text"></td>
+                <td width="450"><input type="text"></td>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280"></td>
+                <td width="180">
+                    <font size="5" color="white"> 3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Graduation</font>
+                </td>
+                <td width="80"><input type="text"></td>
+                <td width="80"><input type="text"></td>
+                <td width="450"><input type="text"></td>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280"></td>
+                <td width="180">
+                    <font size="5" color="white">4 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Masters</font>
+                </td>
+                <td width="80"><input type="text"></td>
+                <td width="80"><input type="text"></td>
+                <td width="450"><input type="text"></td>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="480"></td>
+                <td width="250">
+                    <font color="white">(10 char max)</font>
+                </td>
+                <td width="550">
+                    <font color="white">(upto 2 decimal)</font>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <tr>
+                <td width="280">
+                    <font size="5" color="white">COURSE <br>APPLIED FOR </font>
+                </td>
+                <td width="1002">
+                    <font size="5" color="white">
+                        <label>BCA<input type="radio" name="course" value="bca"></label>&nbsp;&nbsp;&nbsp;<label>B.Com<input type="radio"
+                                name="course" value="b.com"></label>&nbsp;&nbsp;&nbsp;<label>B.Sc<input type="radio" name="course"
+                                value="b.sc"></label>&nbsp;&nbsp;&nbsp;<label>B.A<input type="radio" name="course"
+                                value="b.a"></label>
+                    </font>
+                </td>
+            </tr>
+        </table>
+        <table cellspacing="3" bgcolor="cornflowerblue">
+            <td width="280">
+                <font size="5" color="white"></font>
+            </td>
+            <td width="150">
+                <font size="5" color="white"></font>
+            </td>
+            <td width="150">
+                <font size="5" color="white"></font>
+            </td>
+            <td width="150">
+                <font size="5" color="white"><input type="submit"></font>
+            </td>
+
+            <td width="537">
+                <font size="5" color="white"><input type="reset">
+                </font>
+            </td>
+        </table>
+    </form>
+</body>
+
+</html>
